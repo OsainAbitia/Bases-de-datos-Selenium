@@ -4,6 +4,11 @@ Creación de base de datos utilizando la herramienta de Selenium para la automat
 ## Antes de comenzar
 Antes de ejecutar el .exe “CreaciónDeRegistroEnBD” es necesario tener listo algunos requisitos, el primero de ellos es tener encendido los servidores de Apache y MySQL además de haber ingresado con un usuario y contraseña a PhpMyAdmin. Es necesario tener a la mano el usuario y contraseña de PhpMyAdmin para los siguientes pasos.
 
+## Chromedriver
+Es necesario tener Chromedriver dentro de la ruta “C:\Users\Chromedriver.exe"
+Si aún no tienes instalado <a href="https://chromedriver.chromium.org/" target="_blank">ChromeDriver</a>, asegurate de conocer tu versión de Chrome y descargar el Driver correcto para ti, de lo contrario el programa no funcionará.
+En caso de que Chrome no sea tu navegador preestablecido, busca el WebDriver correspondiente ya que es necesario para que Selenium pueda realizar la automatización de pruebas.
+
 ## HTDOCS o WWW
 Para el correcto manejo de este proyecto es necesario, primeramente, asegurarse de contar con la carpeta ‘registration’ dentro de htdocs, en caso de trabajar con Xamp o en su defecto dentro de ‘www’ si está utilizando Wampp server.
 
