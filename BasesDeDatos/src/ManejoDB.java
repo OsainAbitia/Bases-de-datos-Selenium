@@ -13,9 +13,9 @@ public class ManejoDB {
 	
     public static WebDriver getChromeWebDriver() {
 		
-		System.setProperty(
+		//Ruta para WebDriver
+	        System.setProperty(
 			"webdriver.chrome.driver",
-			//Ruta para WebDriver
 			File.separator+"Users"+File.separator+"chromedriver.exe"
 		);
 		
