@@ -15,9 +15,8 @@ public class ManejoDB {
 		
 		System.setProperty(
 			"webdriver.chrome.driver",
-			File.separator+"Users"+File.separator+"Usuario"+File.separator+"Documents"
-			+File.separator+"7o Cuatri"+File.separator+"Pruebas SW"+File.separator+"PruebaSelenium"
-			+File.separator+"chromedriver.exe"
+			//Ruta para WebDriver
+			File.separator+"Users"+File.separator+"chromedriver.exe"
 		);
 		
 		ChromeOptions options = new ChromeOptions();
@@ -37,7 +36,7 @@ public static void main(String[] args)throws InterruptedException {
 		String actualTitle = chrome.getTitle();
 		System.out.println("Actual title is: " + actualTitle);
 		System.out.println("Creando Base de datos en Localhost, asegurese de haber iniciado"
-				+ " con anterioridad con su usuario y contraseña en phpmyadmin");
+				+ " con anterioridad con su usuario y contraseÃ±a en phpmyadmin");
 		
 		//Nombre para DB
 		WebElement nombre = chrome.findElement(By.id("text_create_db"));
@@ -133,7 +132,7 @@ public static void main(String[] args)throws InterruptedException {
 		       lenghtCol4.sendKeys("100");
 		       Thread.sleep(1000);   
 		
-        //Hacer Scroll
+                //Hacer Scroll
 		jsx.executeScript("window.scrollBy(0,450)", "");
 
 		//Guardar Tabla do_save_data
